@@ -15,6 +15,11 @@ h1, h2, h3 {
 
 p {
     color:hsl(201, 11%, 66%);
+    font-size: 20px;
+}
+
+button {
+    border: none;
 }
 
 /* Header section */
@@ -33,4 +38,20 @@ p {
 .heading{
     font-size: 45px;
     margin: 0 2% 2%;
+}
+
+.header-paragraph{
+    width: 45%;
+    margin: auto;
+    padding-bottom: 3%; 
+}
+
+.btn-ios {
+    text-align: center;
+    background-color: hsl(171, 66%, 44%)
+}
+
+.btn-mac{
+    text-align: center;
+    background-color: hsl(233, 100%, 69%);
 }
