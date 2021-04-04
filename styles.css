@@ -1,3 +1,36 @@
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h1, h2, h3 {
+    color: hsl(210, 10%, 33%);
+}
+
+p {
+    color:hsl(201, 11%, 66%);
+}
+
+/* Header section */
+
+.header {
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.logo {
+    margin: 5%;
+}
+
+.heading{
+    font-size: 45px;
+    margin: 0 2% 2%;
 }
