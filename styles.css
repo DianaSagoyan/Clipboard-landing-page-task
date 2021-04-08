@@ -11,11 +11,12 @@ body {
 
 h1, h2, h3 {
     color: hsl(210, 10%, 33%);
+    font-weight: bolder;
 }
 
 p {
     color:hsl(201, 11%, 66%);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 button {
@@ -74,11 +75,22 @@ button {
 
 .snipet-text{
     text-align: center;
-    width: 53%;
+    width: 47%;
     margin: auto;
     padding: 1.5% 0 5%;
 }
 
 .computer-image{
     margin-left: -30px;
+}
+
+.options{
+    margin-top: 5%;
+    padding-left: 5%;
+    margin-bottom: 15%;
+}
+
+.option-text{
+    width: 57%;
+    margin-bottom: 7%;
 }
