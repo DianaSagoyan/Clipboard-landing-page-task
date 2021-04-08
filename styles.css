@@ -14,8 +14,6 @@ h1, h2, h3 {
     font-weight: bolder;
 }
 
-
-
 p {
     color:hsl(201, 11%, 66%);
     font-size: 18px;
@@ -116,3 +114,14 @@ button {
 .device-image{
     margin: 6% 0;
 }
+
+/* Tools section */
+
+.tools h2 {
+    padding-bottom: 10px;
+}
+
+.tools h3 {
+    text-align: center;
+}
+
