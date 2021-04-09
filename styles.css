@@ -118,7 +118,7 @@ button {
 /* Tools section */
 
 .tools{
-    padding-bottom: 10%;
+    padding-bottom: 7%;
 }
 
 .tools h2 {
@@ -139,11 +139,23 @@ button {
     margin-right: auto;
 }
 
-
 .icon {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
+}
+
+/* Logos */
+
+.logos{
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
+
+.comp-logo {
+    padding-right: 8%;
 }
 
