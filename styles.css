@@ -117,11 +117,33 @@ button {
 
 /* Tools section */
 
+.tools{
+    padding-bottom: 10%;
+}
+
 .tools h2 {
     padding-bottom: 10px;
 }
 
 .tools h3 {
     text-align: center;
+}
+
+.tools p {
+    padding-bottom: 4%;
+}
+
+.tool p{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
 }
 
