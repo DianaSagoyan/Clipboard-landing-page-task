@@ -146,7 +146,7 @@ button {
     margin-bottom: 5%;
 }
 
-/* Logos */
+/* Logos section*/
 
 .logos{
     display: flex;
@@ -159,3 +159,18 @@ button {
     padding-right: 8%;
 }
 
+/* Clipboard section */
+
+.clipboard {
+    text-align: center;
+}
+
+.clipboard h2{
+    padding-bottom: 1%;
+}
+
+.clipboard p{
+    margin: auto;
+    width: 47%;
+    padding-bottom: 4%;
+}
