@@ -163,6 +163,7 @@ button {
 
 .clipboard {
     text-align: center;
+    padding-bottom: 10%;
 }
 
 .clipboard h2{
@@ -173,4 +174,20 @@ button {
     margin: auto;
     width: 47%;
     padding-bottom: 4%;
+}
+
+/* Footer section */
+
+.footer {
+    background-color: #f4f9f9;
+}
+
+.footer div {
+    display: inline;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
