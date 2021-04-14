@@ -180,14 +180,50 @@ button {
 
 .footer {
     background-color: #f4f9f9;
+    display: flex;
+    height: 150px;
+    justify-content: space-around;
+    padding-top: 3.5%;
+    /* display: flex;
+    justify-content: baseline; */
 }
 
-.footer div {
-    display: inline;
+.footer-logo{
+    width: 15%;
+    height: 43%;
 }
+
+/* .footer div {
+    display: inline;
+} */
 
 .footer ul {
     list-style: none;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.container{
     display: flex;
-    justify-content: center;
+    flex-wrap:initial;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.foot-icon{
+    width: 100%;
+    height: auto;
+}
+
+.foot-list{
+    display: flex;
+}
+
+
+.attribution{
+    background-color: #f4f9f9;
+    margin-bottom: 0;
 }
