@@ -203,19 +203,30 @@ button {
     /* justify-content: center; */
 }
 
+
+li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
 .container{
     display: flex;
     flex-wrap:initial;
 }
 
 .icons {
+    /* position: relative; */
     display: flex;
     justify-content: flex-end;
 }
 
 .foot-icon{
-    width: 100%;
-    height: auto;
+    /* position: absolute; */
+    /* margin-right: 130px; */
+    font-size: 7px;
+}
+
+.foot-icon{
+    font-size: 15px;
 }
 
 .foot-list{
