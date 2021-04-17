@@ -178,9 +178,58 @@ button {
 
 /* Footer section */
 
-/* li:not(:last-child) {
+li:not(:last-child) {
     margin-bottom: 10px;
-} */
+}
 
-/* background-color: #f4f9f9; */
  
+.information{
+    background-color: #f4f9f9;
+    display: flex;
+    padding: 3% 10%;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+.foot-ul{
+    display: inline-block;
+    list-style: none;
+    color:hsl(210, 10%, 33%);
+    margin: 0 5%;
+    width: 100%;
+    /* margin: 3% 8% 3% 3%; */
+}
+
+.footer-logo{
+    width: 5%;
+    height: 5%;
+    display: inline;
+    margin-right: 10%;
+}
+
+.container div{
+    flex-grow: 2;
+}
+
+.foot-list{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.foot-icon{
+    margin: 0 3%;
+    font-size: 25px;
+    color:hsl(210, 10%, 33%);
+
+}
+
+.icons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.attribution{
+    background-color: #f4f9f9;
+    padding-bottom: 50px
+}
