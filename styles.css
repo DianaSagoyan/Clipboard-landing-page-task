@@ -279,12 +279,27 @@ li:not(:last-child) {
 
     .snipet-text{
         width: 72%;
-        padding-bottom: 22%;
+        padding-bottom: 18%;
     }
 
     .computer-image{
        height: 55%; 
        margin-left: 40px;
+    }
+
+    .options{
+        margin-top: -80px;
+        text-align: center;
+    }
+
+    .options h3 {
+        font-size: 30px;
+    }
+
+    .option-text {
+        text-align: center;
+        width: 87%;
+        padding-left: 60px;
     }
     
 }   
