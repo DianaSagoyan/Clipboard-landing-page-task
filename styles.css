@@ -233,3 +233,40 @@ li:not(:last-child) {
     background-color: #f4f9f9;
     padding-bottom: 50px
 }
+
+
+
+@media screen and (max-width: 500px){
+    .header{
+        background-image: url(images/bg-header-mobile.png);
+    }
+
+    .logo{
+        padding-bottom: 10%;
+        width: 35%;
+    }
+
+    .heading{
+        padding-bottom: 7%;
+    }
+
+    .header-paragraph{
+        width: 75%;
+        padding-bottom: 15%;
+    }
+
+    .btn-ios, .btn-mac{
+        width: 90%;
+        padding: 4% 7%;
+        margin-bottom: 5%;
+        font-size: 20px;
+    }
+
+    /* .btn-mac{
+        width: 90%;
+        padding: 4% 7%;
+        margin-bottom: 5%;
+        font-size: 20px;
+    } */
+    
+}
