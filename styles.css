@@ -237,6 +237,8 @@ li:not(:last-child) {
 
 
 @media screen and (max-width: 500px){
+/* Header section */
+
     .header{
         background-image: url(images/bg-header-mobile.png);
     }
@@ -255,18 +257,34 @@ li:not(:last-child) {
         padding-bottom: 15%;
     }
 
-    .btn-ios, .btn-mac{
+    .btn-ios, .btn-mac {
         width: 90%;
         padding: 4% 7%;
         margin-bottom: 5%;
         font-size: 20px;
+        box-shadow: 2px 4px hsl(201, 11%, 66%);
     }
 
-    /* .btn-mac{
-        width: 90%;
-        padding: 4% 7%;
-        margin-bottom: 5%;
-        font-size: 20px;
-    } */
+    .btn-mac{
+        margin-bottom: 35%;
+    }
+
+    /* Snippet section */
+
+    .secondary-heading{
+        width: 93%;
+        text-align: center;
+        padding-bottom: 2%;
+    }
+
+    .snipet-text{
+        width: 72%;
+        padding-bottom: 22%;
+    }
+
+    .computer-image{
+       height: 55%; 
+       margin-left: 40px;
+    }
     
-}
+}   
