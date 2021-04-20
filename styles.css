@@ -157,6 +157,7 @@ button {
 
 .comp-logo {
     padding-right: 8%;
+    width: 18%;
 }
 
 /* Clipboard section */
@@ -301,5 +302,85 @@ li:not(:last-child) {
         width: 87%;
         padding-left: 60px;
     }
+
+    /* Access section */
+
+    .secondary-heading{
+        padding-bottom: 5%;
+    }
+
+    .access-part p{
+        width: 70%;
+        padding-bottom: 7%;
+    }
+
+    .device-image{
+        width: 95%;
+        margin-bottom: 25%;
+    }
+
+    /* Tools section */
+
+    .tools h2{
+        padding-bottom: 5%;
+        padding-left: 7%;
+    }
+
+    .tool-paragraph{
+        width: 85%;
+        padding-left: 15%;
+        padding-bottom: 5%;
+    }
+
+    .tool:last-child p:last-child{
+        padding-bottom: 30%;
+    }
+
+    .comp-logo{
+        padding-bottom: 25%;
+        width: 55%;
+    }
+
+    .comp-logo:last-child{
+        padding-bottom: 40%;
+    }
     
+
+    .clipboard h2{
+        padding-left: 10%;
+        padding-bottom: 5%;
+    }
+
+    .clipboard p{
+        width: 70%;
+        padding-bottom: 12%;
+    }
+
+    .footer-logo{
+        width: 40%;
+        margin: auto;
+        padding: 10% 0;
+    }
+
+    .foot-list{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: -35px;
+        font-size: 20px;
+        line-height: 3rem;
+    }
+
+    .foot-list ul:last-child li:last-child{
+        padding-bottom: 10%;
+    }
+
+    .icons{
+        margin-left: -114px;
+        padding-bottom: 7%;
+    }
+
+    .foot-icon{
+        font-size: 2rem;
+    }
 }   
